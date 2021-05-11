@@ -11,4 +11,9 @@ def div(a, b):
     return a / b
 
 def quotient(a, b):
-    reutrn a % b
+    return a % b
+
+def exp(a, b): # 주석
+    for i in range(0,b):
+        a = a*a
+    return a
